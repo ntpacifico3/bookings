@@ -15,6 +15,7 @@
     --primary-color-light: #F6F5FF;
     --toggle-color: #939090;
     --text-color: #707070;
+    --index-color: #0b0b0b;
 
     /* ====== Transition ====== */
     --tran-03: all 0.2s ease;
@@ -320,7 +321,7 @@ body.dark .home .text{
 h2 {
   align-items: center;
   text-align: center;
-  color: var(--primary-color-light);
+  color: var(--index-color);
   justify-content: center;
 }
 
@@ -344,7 +345,7 @@ p {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: var(--primary-color-light);
+    color: var(--index-color);
     width: 50%;
     margin: 0 auto; /* to center horizontally */
   }
@@ -352,5 +353,7 @@ p {
   iframe {
     float: right;
     margin-left: 100px;
+    background-color:white;
   }
+  
   
