@@ -11,7 +11,7 @@
     /* ===== Colors ===== */
     --body-color: #a2a8af;
     --sidebar-color: #eee7e7d1;
-    --primary-color: #695CFE;
+    --primary-color: rgb(132, 20, 20);
     --primary-color-light: #F6F5FF;
     --toggle-color: #939090;
     --text-color: #707070;
@@ -30,7 +30,7 @@ body{
 }
 
 ::selection{
-    background-color: var(--primary-color);
+    background-color: black;
     color: #fff;
 }
 
@@ -321,6 +321,7 @@ h2 {
   align-items: center;
   text-align: center;
   color: var(--primary-color-light);
+  justify-content: center;
 }
 
 ul {
@@ -339,5 +340,17 @@ ul {
 }
 
 p {
-  color: var(--primary-color-light);
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--primary-color-light);
+    width: 50%;
+    margin: 0 auto; /* to center horizontally */
+  }
+
+  iframe {
+    float: right;
+    margin-left: 100px;
+  }
+  
