@@ -3,11 +3,12 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-    <title> Responsive Sidebar Menu  | CodingLab </title>
+    <title> ntpacifico.com | IT Support</title>
     <link rel="stylesheet" href="forms.css">
     <!-- Boxicons CDN Link -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
 <body>
   <div class="sidebar">
@@ -25,13 +26,15 @@
         </a>
          <span class="tooltip">Home</span>
       </li>
+
       <li>
        <a href="bookings.html">
         <i class='bx bx-calendar' ></i>
-         <span class="links_name">Bookings</span>
+         <span class="links_name">Book A Call</span>
        </a>
-       <span class="tooltip">Bookings</span>
+       <span class="tooltip">Book A Call</span>
      </li>
+
      <li>
        <a href="forms.html">
         <i class='bx bx-phone' ></i>
@@ -50,93 +53,93 @@
     
     </ul>
   </div>
+  
   <section class="home-section">
-      <div class="text">Contact Us</div>
-
-
-      <div class="form-box">
-        <form class="row g-3 needs-validation" novalidate>
-            <div class="col-md-4">
-              <label for="validationCustom01" class="form-label">First name</label>
-              <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
-              <div class="valid-feedback">
-                Looks good!
+      
+    <br>
+    <br>
+    <div class="container">
+      <div class="content">
+        <div class="left-side">
+          <div class="address details">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="topic">Address</div>
+            <div class="text-one">Surkhet, NP12</div>
+            <div class="text-two">Birendranagar 06</div>
+          </div>
+          <div class="phone details">
+            <i class="fas fa-phone-alt"></i>
+            <div class="topic">Phone</div>
+            <div class="text-one">+0098 9893 5647</div>
+            <div class="text-two">+0096 3434 5678</div>
+          </div>
+          <div class="email details">
+            <i class="fas fa-envelope"></i>
+            <div class="topic">Email</div>
+            <div class="text-one">codinglab@gmail.com</div>
+            <div class="text-two">info.codinglab@gmail.com</div>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="topic-text">Send us a message</div>
+          <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
+         <br>
+          <form action="">
+            <div class="field name-field">
+              <div class="input-field">
+                <input type="name" placeholder="Enter your Full name" class="name" />
               </div>
+              <span class="error name-error">
+                <i class="bx bx-error-circle error-icon"></i>
+                <p class="error-text">Please enter a Full name</p>
+              </span>
             </div>
-            <div class="col-md-4">
-              <label for="validationCustom02" class="form-label">Last name</label>
-              <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
-              <div class="valid-feedback">
-                Looks good!
+            <div class="field create-password">
+              <div class="input-field">
+                <input
+                  type="password"
+                  placeholder="Create password"
+                  class="password"
+                />
+                <i class="bx bx-hide show-hide"></i>
               </div>
+              <span class="error password-error">
+                <i class="bx bx-error-circle error-icon"></i>
+                <p class="error-text">
+                  Please enter atleast 8 charatcer with number, symbol, small and
+                  capital letter.
+                </p>
+              </span>
             </div>
-            <div class="col-md-4">
-              <label for="validationCustomUsername" class="form-label">Username</label>
-              <div class="input-group has-validation">
-                <span class="input-group-text" id="inputGroupPrepend">@</span>
-                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-                <div class="invalid-feedback">
-                  Please choose a username.
-                </div>
+            <div class="field confirm-password">
+              <div class="input-field">
+                <input
+                  type="password"
+                  placeholder="Confirm password"
+                  class="cPassword"
+                />
+                <i class="bx bx-hide show-hide"></i>
               </div>
+              <span class="error cPassword-error">
+                <i class="bx bx-error-circle error-icon"></i>
+                <p class="error-text">Password don't match</p>
+              </span>
             </div>
-            <div class="col-md-6">
-              <label for="validationCustom03" class="form-label">City</label>
-              <input type="text" class="form-control" id="validationCustom03" required>
-              <div class="invalid-feedback">
-                Please provide a valid city.
-              </div>
-            </div>
-            <div class="col-md-3">
-              <label for="validationCustom04" class="form-label">State</label>
-              <select class="form-select" id="validationCustom04" required>
-                <option selected disabled value="">Choose...</option>
-                <option>...</option>
-              </select>
-              <div class="invalid-feedback">
-                Please select a valid state.
-              </div>
-            </div>
-            <div class="col-md-3">
-              <label for="validationCustom05" class="form-label">Zip</label>
-              <input type="text" class="form-control" id="validationCustom05" required>
-              <div class="invalid-feedback">
-                Please provide a valid zip.
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                <label class="form-check-label" for="invalidCheck">
-                  Agree to terms and conditions
-                </label>
-                <div class="invalid-feedback">
-                  You must agree before submitting.
-                </div>
-              </div>
-            </div>
-            <div class="col-12">
-              <button class="btn btn-primary" type="submit">Submit form</button>
+            <div class="input-field button">
+              <input type="submit" value="Submit Now" />
             </div>
           </form>
-      </div>
 
+
+
+      </div>
+      </div>
+    </div>
+
+    
   </section>
 
-  
-    
-
-
-
-
-
-
-
-
-
-  <script src="script.js"></script>
-
-  
+  <script src="forms.js"></script>
 
 </body>
 </html>
