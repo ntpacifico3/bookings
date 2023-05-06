@@ -1,134 +1,60 @@
-<!-- Coding by CodingLab | www.codinglabweb.com -->
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<!-- Created by CodingLab |www.youtube.com/c/CodingLabYT-->
+<html lang="en" dir="ltr">
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!----======== CSS ======== -->
+    <title> Responsive Sidebar Menu  | CodingLab </title>
     <link rel="stylesheet" href="style.css">
-    
-    <!----===== Boxicons CSS ===== -->
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    
-    <title>Online Bookings</title> 
-</head>
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
 <body>
-    <nav class="sidebar close">
-        <header>
-            <div class="image-text">
-                <span class="image">
-                    <img src="logo.png" alt="">
-                </span>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bxs-group icon'></i>
+        <div class="logo_name">Bookings</div>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+     
+      <li>
+        <a href="index.html">
+          <i class='bx bx-home' ></i>
+          <span class="links_name">Home</span>
+        </a>
+         <span class="tooltip">Home</span>
+      </li>
+      <li>
+       <a href="bookings.html">
+        <i class='bx bx-calendar' ></i>
+         <span class="links_name">Bookings</span>
+       </a>
+       <span class="tooltip">Bookings</span>
+     </li>
+     <li>
+       <a href="forms.html">
+        <i class='bx bx-phone' ></i>
+         <span class="links_name">Contact Us</span>
+       </a>
+       <span class="tooltip">Contact Us</span>
+     </li>
+     <li>
+       <a href="#">
+        <i class='bx bx-user-pin' ></i>
+         <span class="links_name">About Us</span>
+       </a>
+       <span class="tooltip">About Us</span>
+     </li>
+    
+    
+    </ul>
+  </div>
+  <section class="home-section">
+      <div class="text">Dashboard</div>
+  </section>
 
-                <div class="text logo-text">
-                    <span class="name">Bookings</span>
-                    <span class="profession">Online Appointment</span>
-                </div>
-            </div>
-
-            
-
-            <i class='bx bx-chevron-right toggle'></i>
-        </header>
-
-        
-
-
-        <div class="menu-bar">
-            <div class="menu">
-
-                <!---
-                <li class="search-box">
-                    <i class='bx bx-search icon'></i>
-                    <input type="text" placeholder="Search...">
-                </li>
-                        -->
-
-                <ul class="menu-links">
-                    <li class="nav-link">
-                        <a href="index.html">
-                            <i class='bx bx-home-alt icon' ></i>
-                            <span class="text nav-text">Home</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="bookings.html">
-                            <i class='bx bxs-calendar icon'></i>
-                            <span class="text nav-text">Bookings</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-bell icon'></i>
-                            <span class="text nav-text">Contact Us</span>
-                        </a>
-                    </li>
-
-                     <!---
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-pie-chart-alt icon' ></i>
-                            <span class="text nav-text">About Me</span>
-                        </a>
-                    </li>
-                         -->
-
-                    <!---
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-heart icon' ></i>
-                            <span class="text nav-text">Contact Us</span>
-                        </a>
-                    </li>
-                        -->
-                </ul>
-            </div>
-
-           
-            <div class="bottom-content">
-                
-                        
-                <li class="mode">
-                    <div class="sun-moon">
-                        <i class='bx bx-moon icon moon'></i>
-                        <i class='bx bx-sun icon sun'></i>
-                    </div>
-                    <span class="mode-text text">Dark mode</span>
-
-                    <div class="toggle-switch">
-                        <span class="switch"></span>
-                    </div>
-                </li>
-                
-            </div>
-        </div>
-
-    </nav>
-
-    <section class="hero">
-        <br>
-        <h2>Test Website</h2>
-        <br>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem excepturi commodi corporis voluptates vitae unde ipsum tenetur laboriosam consequuntur quisquam fuga reprehenderit necessitatibus labore dolore, dignissimos, et itaque at distinctio!</p>
-
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem excepturi commodi corporis voluptates vitae unde ipsum tenetur laboriosam consequuntur quisquam fuga reprehenderit necessitatibus labore dolore, dignissimos, et itaque at distinctio!</p>
-        <br>
-        <br>
-        <br>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem excepturi commodi corporis voluptates vitae unde ipsum tenetur laboriosam consequuntur quisquam fuga reprehenderit necessitatibus labore dolore, dignissimos, et itaque at distinctio!</p>
-
-        
-      
-       
-        
-   
-      </section>
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 
 </body>
 </html>
